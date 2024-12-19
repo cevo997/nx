@@ -1,0 +1,119 @@
+/*
+Theme Name: Sagen Child
+Theme URI: https://sagen.qodeinteractive.com
+Description: A child theme of Sagen Theme
+Author: Select Themes
+Author URI: https://qodeinteractive.com
+Version: 1.0.0
+Text Domain: sagen
+Template: sagen
+*/
+
+
+.qodef-ct-features-holder {
+	flex-grow: 3 !important;
+}
+.qodef-ct-table-holder-inner {
+	flex-grow: 1 !important;
+}
+
+.qodef-ct-features-item > h6, .qodef-ct-table-content > ul > li {
+	line-height: 40px !important;
+}
+
+.qodef-ct-features-item:last-child > h6 , .qodef-ct-table-content > ul > li:last-child {
+	font-weight: 900;
+	line-height: 50px !important;
+	background-color: #edf7fa !important;
+}
+
+
+
+.qodef-comparision-table-holder .qodef-ct-table .qodef-ct-table-content li {
+	font-family: "Oswald" !important;
+}
+
+.qodef-img-holder {
+	display: none !important;
+}
+
+.qodef-map-holder {
+	width: 100% !important;
+}
+
+.qodef-img-holder {
+	display: none !important;
+}
+
+.qodef-map-holder {
+	width: 100% !important;
+}
+
+
+.button_nacrt {
+	display: inline-block !important;
+	float: right !important;
+}
+
+.text-shadow {
+	text-shadow: 0px 0px 10px rgba(0,0,0,1) !important;
+}
+
+@media(max-width: 768px) {
+	.button_nacrt {
+		display: inline-block !important;
+	    width: 100% !important;
+		text-align: center;
+	}
+	
+	.qodef-property-single-holder .vc_custom_1624533248419, .qodef-property-single-holder .vc_custom_1627137535176 {
+		padding-top: 0px !important;
+	}
+
+	 .qodef-property-single-holder .vc_custom_1624533137865 {
+		padding-top: 60px !important;
+	}
+
+}
+
+@media(max-width: 1000px) {
+	.imp-shapes-menu-wrap {
+		display: none;	
+	}
+	.imp-ui-element {
+		z-index: 3;
+	}
+
+	.imp-shapes-menu-button {
+	position: absolute;
+    width: 46px;
+    height: 46px;
+    right: 20px;
+    top: 20px;
+    line-height: 46px;
+    text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+}
+
+.qodef-container-inner, .vc_column-inner {
+	padding-top: 0px !important;
+}
+
+.qodef-ct-swipe {
+	display: none !important;
+}
+
+.qodef-post-info-bottom, .qodef-post-excerpt {
+	display: none !important;
+}
+
+.imp-ui-layers-menu-wrap {
+	width: 130px;
+}
+
+.qodef-header-vertical-closed .qodef-vertical-menu ul li a {
+	color: #000 !important;
+}
